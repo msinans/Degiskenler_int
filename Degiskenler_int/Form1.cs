@@ -73,8 +73,10 @@ namespace Degiskenler_int
             ortalama = (vize + final + proje) / 3;
             // textBox4.Text = Convert.ToString(ortalama);
             ikihane= string.Format("{0:0.00}", ortalama); // iki haneli küsürat için gerekli kod
-            textBox4.Text = ikihane;
+            label8.Text = ikihane;
 
         }
+
+        
     }
 }
